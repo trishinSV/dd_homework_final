@@ -7,28 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A51623971FC83D77004879AE /* FlikrGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = A51623961FC83D77004879AE /* FlikrGetter.m */; };
+		A516239A1FC87E20004879AE /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A51623991FC87E20004879AE /* ImageViewController.m */; };
 		A5572C601FC8362A00B3E662 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5572C5F1FC8362A00B3E662 /* AppDelegate.m */; };
-		A5572C631FC8362B00B3E662 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5572C621FC8362B00B3E662 /* FirstViewController.m */; };
-		A5572C661FC8362B00B3E662 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5572C651FC8362B00B3E662 /* SecondViewController.m */; };
 		A5572C691FC8362B00B3E662 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5572C671FC8362B00B3E662 /* Main.storyboard */; };
 		A5572C6B1FC8362B00B3E662 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5572C6A1FC8362B00B3E662 /* Assets.xcassets */; };
 		A5572C6E1FC8362B00B3E662 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5572C6C1FC8362B00B3E662 /* LaunchScreen.storyboard */; };
 		A5572C711FC8362B00B3E662 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5572C701FC8362B00B3E662 /* main.m */; };
+		A5572C791FC8389500B3E662 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5572C781FC8389500B3E662 /* TableViewController.m */; };
+		A5572C7C1FC838CA00B3E662 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5572C7B1FC838CA00B3E662 /* CollectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A51623951FC83D77004879AE /* FlikrGetter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlikrGetter.h; sourceTree = "<group>"; };
+		A51623961FC83D77004879AE /* FlikrGetter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlikrGetter.m; sourceTree = "<group>"; };
+		A51623981FC87E20004879AE /* ImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		A51623991FC87E20004879AE /* ImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
 		A5572C5B1FC8362A00B3E662 /* dd_homework_final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dd_homework_final.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5572C5E1FC8362A00B3E662 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A5572C5F1FC8362A00B3E662 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A5572C611FC8362A00B3E662 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		A5572C621FC8362B00B3E662 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		A5572C641FC8362B00B3E662 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		A5572C651FC8362B00B3E662 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		A5572C681FC8362B00B3E662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A5572C6A1FC8362B00B3E662 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5572C6D1FC8362B00B3E662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5572C6F1FC8362B00B3E662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5572C701FC8362B00B3E662 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5572C771FC8389500B3E662 /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		A5572C781FC8389500B3E662 /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		A5572C7A1FC838CA00B3E662 /* CollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		A5572C7B1FC838CA00B3E662 /* CollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,11 +69,15 @@
 			children = (
 				A5572C5E1FC8362A00B3E662 /* AppDelegate.h */,
 				A5572C5F1FC8362A00B3E662 /* AppDelegate.m */,
-				A5572C611FC8362A00B3E662 /* FirstViewController.h */,
-				A5572C621FC8362B00B3E662 /* FirstViewController.m */,
-				A5572C641FC8362B00B3E662 /* SecondViewController.h */,
-				A5572C651FC8362B00B3E662 /* SecondViewController.m */,
+				A5572C771FC8389500B3E662 /* TableViewController.h */,
+				A5572C781FC8389500B3E662 /* TableViewController.m */,
+				A51623951FC83D77004879AE /* FlikrGetter.h */,
+				A51623961FC83D77004879AE /* FlikrGetter.m */,
+				A5572C7A1FC838CA00B3E662 /* CollectionViewController.h */,
+				A5572C7B1FC838CA00B3E662 /* CollectionViewController.m */,
 				A5572C671FC8362B00B3E662 /* Main.storyboard */,
+				A51623981FC87E20004879AE /* ImageViewController.h */,
+				A51623991FC87E20004879AE /* ImageViewController.m */,
 				A5572C6A1FC8362B00B3E662 /* Assets.xcassets */,
 				A5572C6C1FC8362B00B3E662 /* LaunchScreen.storyboard */,
 				A5572C6F1FC8362B00B3E662 /* Info.plist */,
@@ -147,10 +157,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5572C661FC8362B00B3E662 /* SecondViewController.m in Sources */,
+				A516239A1FC87E20004879AE /* ImageViewController.m in Sources */,
 				A5572C601FC8362A00B3E662 /* AppDelegate.m in Sources */,
+				A5572C7C1FC838CA00B3E662 /* CollectionViewController.m in Sources */,
 				A5572C711FC8362B00B3E662 /* main.m in Sources */,
-				A5572C631FC8362B00B3E662 /* FirstViewController.m in Sources */,
+				A5572C791FC8389500B3E662 /* TableViewController.m in Sources */,
+				A51623971FC83D77004879AE /* FlikrGetter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

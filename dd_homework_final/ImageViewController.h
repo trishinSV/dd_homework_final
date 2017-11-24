@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  ImageViewController.h
 //  dd_homework_final
 //
 //  Created by Сергей Тришин on 24.11.2017.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
-
+@interface ImageViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UIBarButtonItem *doneButton;
 
 @end
-
