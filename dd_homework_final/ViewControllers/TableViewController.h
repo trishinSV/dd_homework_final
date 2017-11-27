@@ -7,12 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "FlikrGetter.h"
+#import "FlickrInteraction.h"
 
 
 @interface TableViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
-@property(nonatomic,strong) NSArray * tags;
-@property (strong, nonatomic) IBOutlet UITableView *tableView;
+
 
 
 @end

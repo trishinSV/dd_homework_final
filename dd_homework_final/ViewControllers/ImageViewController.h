@@ -1,5 +1,5 @@
 //
-//  CollectionViewController.h
+//  ImageViewController.h
 //  dd_homework_final
 //
 //  Created by Сергей Тришин on 24.11.2017.
@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "FlikrGetter.h"
-@interface CollectionViewController : UICollectionViewController
-@property(nonatomic,strong) NSArray * photos;
+
+@interface ImageViewController : UIViewController
+
+@property (nonatomic, copy) NSDictionary* sizes;
 
 
 @end

@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "FlikrGetter.h"
+#import "FlickrInteraction.h"
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;

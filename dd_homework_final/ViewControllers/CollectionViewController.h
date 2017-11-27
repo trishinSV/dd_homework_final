@@ -1,5 +1,5 @@
 //
-//  ImageViewController.h
+//  CollectionViewController.h
 //  dd_homework_final
 //
 //  Created by Сергей Тришин on 24.11.2017.
@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FlickrInteraction.h"
+@interface CollectionViewController : UICollectionViewController
 
-@interface ImageViewController : UIViewController
-@property (strong, nonatomic) IBOutlet UIBarButtonItem *doneButton;
+@property (nonatomic, copy) NSString *currentTag;
 
 @end
