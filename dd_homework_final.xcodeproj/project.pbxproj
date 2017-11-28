@@ -20,6 +20,7 @@
 		A5572C711FC8362B00B3E662 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5572C701FC8362B00B3E662 /* main.m */; };
 		A5572C791FC8389500B3E662 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5572C781FC8389500B3E662 /* TableViewController.m */; };
 		A5572C7C1FC838CA00B3E662 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5572C7B1FC838CA00B3E662 /* CollectionViewController.m */; };
+		A5D6C7CD1FCC2DCF00AAF8D0 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D6C7CC1FCC2DCF00AAF8D0 /* SearchViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,8 @@
 		A5572C781FC8389500B3E662 /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		A5572C7A1FC838CA00B3E662 /* CollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
 		A5572C7B1FC838CA00B3E662 /* CollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		A5D6C7CB1FCC2DCF00AAF8D0 /* SearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		A5D6C7CC1FCC2DCF00AAF8D0 /* SearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 			children = (
 				A5572C771FC8389500B3E662 /* TableViewController.h */,
 				A5572C781FC8389500B3E662 /* TableViewController.m */,
+				A5D6C7CB1FCC2DCF00AAF8D0 /* SearchViewController.h */,
+				A5D6C7CC1FCC2DCF00AAF8D0 /* SearchViewController.m */,
 				A5572C7A1FC838CA00B3E662 /* CollectionViewController.h */,
 				A5572C7B1FC838CA00B3E662 /* CollectionViewController.m */,
 				A51623981FC87E20004879AE /* ImageViewController.h */,
@@ -209,6 +214,7 @@
 				A5572C7C1FC838CA00B3E662 /* CollectionViewController.m in Sources */,
 				A533E52D1FCB46080003F5CC /* PhotoSize.m in Sources */,
 				A5572C711FC8362B00B3E662 /* main.m in Sources */,
+				A5D6C7CD1FCC2DCF00AAF8D0 /* SearchViewController.m in Sources */,
 				A5572C791FC8389500B3E662 /* TableViewController.m in Sources */,
 				A51623971FC83D77004879AE /* FlickrInteraction.m in Sources */,
 			);

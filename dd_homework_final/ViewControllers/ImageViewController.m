@@ -27,6 +27,20 @@
     [super viewDidLoad];
      self.scrollView.delegate = self;
     
+    
+    
+    
+    
+    
+    self.photoImageView.frame = self.scrollView.bounds;
+    [self.photoImageView setContentMode:UIViewContentModeScaleAspectFit];
+    self.scrollView.contentSize = CGSizeMake(self.photoImageView.frame.size.width, self.photoImageView.frame.size.height);
+    self.scrollView.maximumZoomScale = 4.0;
+   self. scrollView.minimumZoomScale = 1.0;
+    self.scrollView.delegate = self;
+    
+    
+    
     support = [[PhotoSupport alloc] init];
     support.delegate = self;
     [support loadPhotoWithSize:[self chooseSize] photoSizes:self.sizes delegate:self];
