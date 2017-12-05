@@ -39,10 +39,10 @@
  #pragma mark - Navigation
  
  - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
- if ([segue.identifier isEqual:@"showBySearch"]) {
- CollectionViewController *dvc = (CollectionViewController *)segue.destinationViewController;
- dvc.currentTag = self.searchResult.text;
- }
+     if ([segue.identifier isEqual:@"showBySearch"]) {
+         CollectionViewController *dvc = (CollectionViewController *)segue.destinationViewController;
+         dvc.currentTag = self.searchResult.text;
+     }
  }
 
 @end

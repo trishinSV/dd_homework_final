@@ -40,13 +40,14 @@
                             forControlEvents:UIControlEventValueChanged];
     [self.tableView.refreshControl beginRefreshing];
     
-     [self updateTags];
+    [self updateTags];
 }
 - (void)updateTags {
     [support getTags];
 }
 
 - (void)setReceivedTags:(NSArray *)tags {
+    
     self.tags = tags;
     [self.tableView reloadData];
     [self.tableView.refreshControl endRefreshing];
@@ -60,17 +61,19 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Top tags" forIndexPath:indexPath];
     
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Top tags" forIndexPath:indexPath];
     cell.textLabel.text = [[self.tags objectAtIndex:indexPath.row] valueForKeyPath:@"_content"];
 
     return cell;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
     selectedTag = cell.textLabel.text;
+    
     [self performSegueWithIdentifier:@"ShowCollection" sender:self];
 }
 

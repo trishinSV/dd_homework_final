@@ -27,11 +27,6 @@
     [super viewDidLoad];
      self.scrollView.delegate = self;
     
-    
-    
-    
-    
-    
     self.photoImageView.frame = self.scrollView.bounds;
     [self.photoImageView setContentMode:UIViewContentModeScaleAspectFit];
     self.scrollView.contentSize = CGSizeMake(self.photoImageView.frame.size.width, self.photoImageView.frame.size.height);

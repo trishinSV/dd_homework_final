@@ -29,7 +29,7 @@
 + (void)getListOfTopTags:(id <FlickrInteractionTagsDelegate>)delegate;
 + (void)getPhotosIDByTag:(NSString *)tag delegate:(id <FlickrInteractionWithPhotosByTagDelegate>)delegate;
 + (void)getSizeOfPhotosWithID:(NSArray *)photoIDs delegate:(id <FlickrInteractionWithPhotosByTagDelegate>)delegate;
-+ (void)getPhotoWithSize:(NSString *)size photoSizes:(NSDictionary *)photoSizesURL session:(NSURLSession *)session delegate:(id <FlickrInteractionWithPhotosByTagDelegate>)delegate;
++ (void)getPhotoWithSize:(NSString *)size photoSizes:(NSDictionary *)loadedPhotoSizesURL session:(NSURLSession *)session delegate:(id <FlickrInteractionWithPhotosByTagDelegate>)delegate;
 
 
 @property(strong,nonatomic) NSArray * tags; // массив словарей NSDictionary с Flickr tags
